@@ -1,43 +1,70 @@
-/* Search Bar
-    width: auto;
-    max-width: 584px;
-*/
-body {
-    background: #fff;
-	display: block;
-}
-
 body, input, button {
     font-size: 14px;
     font-family: Roboto,arial,sans-serif;
     color: #222;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0 auto;
-	padding: 6px;
-	overflow: hidden;
-}
-  
-li {
-	float: left;
-}
-
-li a {
-	display: block;
-	color: #222;
+.navbar {
+    overflow: hidden;
+	margin: 8px;
 	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
+.left-navbar a {
+    float: left;
+    color: #222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.right-navbar a {
+	float: right;
+	color: #222;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
 	text-decoration: underline;
 }
 
-.icons {
-	vertical-align: middle;
-	margin: auto;
+.google-logo {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 40px;
+}
+
+.footer-group {
+	overflow: hidden;
+    position: fixed;
+	bottom: 0;
+	width: 100%;
+	display: block;
+}
+
+.footer-bar {
+	text-align: center;
+	padding: 20px;
+	background-color: rgb(242, 242, 242);
+}
+
+.footer-bar a {
+	color: #222;
+	padding: 14px 16px;
+	text-decoration: none;
+	justify-content: space-evenly;
+}
+
+.footer-bar a:hover {
+	text-decoration: underline;
+}
+
+.psa {
+	text-align: center;
+	width: 100%;
+	background-color: rgb(242, 242, 242);
+	padding: 20px;
 }

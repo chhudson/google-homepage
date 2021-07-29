@@ -4,54 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
     
 
     <title>Google</title>
 </head>
 <body>
     <!-- Nav -->
-    <ul>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">About</a></li>
-        <li><a href="http://" target="_blank" rel="noopener noreferrer">Store</a></li>
-        <li style="float:right"><a href="http://" target="_blank" rel="noopener noreferrer"><span class="material-icons">account_circle</span></a></li>
-        <li style="float:right"><a href="http://" target="_blank" rel="noopener noreferrer"><span class="material-icons">apps</span></a></li>
-        <li style="float:right" class="icons"><a href="http://" target="_blank" rel="noopener noreferrer">Images</a></li>
-        <li style="float:right" class="icons"><a href="http://" target="_blank" rel="noopener noreferrer">Gmail</a></li>
-    </ul>
+    <header class="navbar">
+        <div class="left-navbar">
+            <a href="http://" target="_blank" rel="noopener noreferrer">About</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Store</a>
+        </div>
+        <div class="right-navbar">
+            <a href="http://" target="_blank" rel="noopener noreferrer"><span class="material-icons" style="vertical-align: middle;">account_circle</span></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><span class="material-icons" style="vertical-align: middle;">apps</span></a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Images</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Gmail</a>
+        </div>
+    </header>
+    
 
     <!-- Some image for google -->
-    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Googles Logo">
+    <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Googles Logo">
 
     <!-- Search Bar -->
-    <form>
-        <span class="material-icons">search</span>
-        <input type="text" name="search-bar" id="search-bar">
-        <span class="material-icons">mic</span>
-        <button type="submit">Search</button>
-    </form>
-
-    <!-- Google Search Button -->
-    <button type="submit">Google Search</button>
+    <div class="search-bar">
+        <form>
+            <span class="material-icons">search</span>
+            <input type="text" name="search-bar" id="search-bar">
+            <span class="material-icons">mic</span>
+        </form>
+    </div>
     
-    <!-- I'm Feeling Luck Button -->
-    <button type="submit">I'm Feeling Lucky</button>
+    <div class="button-grp">
+        <!-- Google Search Button -->
+        <button type="submit">Google Search</button>
+        
+        <!-- I'm Feeling Luck Button -->
+        <button type="submit">I'm Feeling Lucky</button>
+    </div>
     
-    <!-- PSA -->
-    <p>
-        <span class="material-icons">spa</span>
-        Carbon neutal since 2007
-    </p>
+    <div class="footer-group">
+        <!-- PSA -->
+        <p class="psa"><span class="material-icons" style="vertical-align: middle;">spa</span>Carbon neutal since 2007</p>
 
-    <!-- Footer -->
-    <ul>
-        <li>Advertising</li>
-        <li>Business</li>
-        <li>How Search works</li>
-        <li>Privacy</li>
-        <li>Terms</li>
-        <li>Settings</li>
-    </ul>
+        <!-- Footer -->
+        <footer class="footer-bar">
+            <div>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Advertising</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Business</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">How Search works</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Privacy</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Terms</a>
+                <a href="http://" target="_blank" rel="noopener noreferrer">Settings</a>
+            </div>
+        </footer>
+    </div>
+    
 </body>
 </html>
