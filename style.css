@@ -4,6 +4,14 @@ body, input, button {
     color: #222;
 }
 
+.google-logo {
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+	margin-top: 40px;
+}
+
+/* Top Nav */
 .navbar {
     overflow: hidden;
 	margin: 8px;
@@ -30,13 +38,7 @@ body, input, button {
 	text-decoration: underline;
 }
 
-.google-logo {
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-	margin-top: 40px;
-}
-
+/* Bottom Nav */
 .footer-group {
 	overflow: hidden;
     position: fixed;
@@ -67,4 +69,63 @@ body, input, button {
 	width: 100%;
 	background-color: rgb(242, 242, 242);
 	padding: 20px;
+}
+
+.search-group {
+	width: 100%;
+	display: block;
+	position: relative;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.search-bar {
+	margin-bottom: 10px;
+}
+
+.search-bar input {
+	width: 60%;
+	/* padding: 8px; */
+	border-radius: 24px;
+	border: 1px solid #dfe1e5;
+    border-top-color: rgb(223, 225, 229);
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-right-color: rgb(223, 225, 229);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(223, 225, 229);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: rgb(223, 225, 229);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+	margin: 0 auto;
+	height: 44px;
+	background-color: rgba(0, 0, 0, 0)
+}
+
+.search-bar input:focus {
+	outline:none;
+	text-indent:20px;
+}
+
+.search-group .button-group button {
+	background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+	border-radius: 4px;
+    color: #3c4043;
+	margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
